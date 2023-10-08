@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Roboto&display=swap');
 h4 {
     color: #114b5f;
 }
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color: #114b5f;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -21,6 +23,11 @@ nav a:hover {
 #background {
     height: 725px;
     background-color: #657b99;
+    margin-bottom: 80px;
+}
+
+.mountains {
+    margin-bottom: 150px;
 }
 
 #hero-msg h1 {
@@ -43,9 +50,28 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 body {
     background-color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+h2 {
+    margin: 0;
+}
+
+
+/* h1,
+h2,
+h4 {
+    font-family: Philosopher, Helvetica, sans-serif;
+} */
 
 header {
     background-color: #D1DC10;
@@ -53,6 +79,18 @@ header {
 
 footer {
     background-color: #D1DC10;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
 }
 
 footer h3 {
@@ -77,30 +115,41 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-.book {
-    background-color: #657b99;
-    color: #fff;
-    text-decoration: none;
-}
-
-.book:hover {
-    background-color: #000;
-    color: #D1DC10;
-}
-
+.book,
 .join {
     background-color: #657b99;
     color: #fff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
+.book:hover {
+    background-color: #114b5f;
+    color: #D1DC10;
+}
+
+.card-img {
+    border: 10px solid #657b99;
+}
+
+
+/* .join {
+    background-color: #657b99;
+    color: #fff;
+    text-decoration: none;
+} */
+
 .join:hover {
-    background-color: #000;
+    background-color: #114b5f;
     color: #D1DC10;
 }
 
 .msg {
     background-color: #D1DC10;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -109,14 +158,25 @@ footer p a:hover {
 
 .msg p {
     color: #114b5f;
+    padding-bottom: 15px;
 }
 
 .home-title {
     color: #114b5f;
+    font-family: Philosopher, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .logo {
