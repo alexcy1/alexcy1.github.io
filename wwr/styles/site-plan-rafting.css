@@ -40,9 +40,9 @@ body {
 }
 
 img {
-    display: block;
+    /* display: block; */
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 700px;
 }
 
 h1,

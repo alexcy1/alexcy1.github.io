@@ -226,3 +226,26 @@ nav a:hover {
     border-top: 1px solid;
     border-right: 1px solid;
 }
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 350p;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    width: 100%;
+    height: 350px;
+}
+
+.gmap_iframe {
+    width: 100%!important;
+    height: 350px!important;
+}
+
+.home-content-text {
+    text-align: left;
+}
