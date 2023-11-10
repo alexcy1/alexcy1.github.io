@@ -278,52 +278,7 @@ footer .social img {
     padding: 5px;
 }
 
-@media screen and (max-width: 900px) {
-    #hero,
-    .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav,
-    footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .rivers-card,
-    .camping-card,
-    .rapids-card {
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains,
-    .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    footer {
-        margin-top: 25px;
-    }
-}
+
 
 
 /* faq ======================================================================================*/
@@ -344,6 +299,11 @@ div+div {
     color: #657b99;
     margin-top: -10px;
     text-transform: uppercase;
+}
+
+.faq-text{
+    font-size:18px;
+    color:#848482;
 }
 
 div.seperator {
@@ -469,6 +429,54 @@ summary:after {
 /* .close-gap {
     margin-bottom: -100px;
 } */
+
+
+@media screen and (max-width: 900px) {
+    #hero,
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav,
+    footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card,
+    .camping-card,
+    .rapids-card {
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains,
+    .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
 
 
 /* Add a media query for screens with a maximum width of 768px (typical tablet width) */
