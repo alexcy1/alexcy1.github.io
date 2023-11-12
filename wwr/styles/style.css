@@ -279,8 +279,6 @@ footer .social img {
 }
 
 
-
-
 /* faq ======================================================================================*/
 
 div+div {
@@ -301,9 +299,9 @@ div+div {
     text-transform: uppercase;
 }
 
-.faq-text{
-    font-size:18px;
-    color:#848482;
+.faq-text {
+    font-size: 18px;
+    color: #848482;
 }
 
 div.seperator {
@@ -430,6 +428,87 @@ summary:after {
     margin-bottom: -100px;
 } */
 
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 620px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li+li {
+    margin-top: 1em;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+    /* Uniform text field size */
+    width: 500px;
+    box-sizing: border-box;
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px;
+    /* same size as the label elements */
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+}
+
+#feedback {
+    background-color: #f5f5f5;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    padding: .6em;
+    margin-top: -6px;
+    text-align: center;
+    /* make this element invisible until we are ready for it */
+    display: none;
+}
+
+
+/* .moveDown {
+    margin-top: 3em;
+} */
 
 @media screen and (max-width: 900px) {
     #hero,
